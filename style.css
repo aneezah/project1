@@ -1,0 +1,202 @@
+.page{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url("Ground.jpg") no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.page a{
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 40px;
+    margin-right: 600px;
+    margin-left: 600px;
+    background-color: green;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+/* NAVBER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header h1{
+    margin-left: 10px;
+    color:white;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color:blue;
+}
+header span{
+    color: pink;
+}
+
+/* PROCEED  */
+
+.proceed{
+    display: flex;
+    height: 550px;
+}
+.proceed-img{
+    background: url("pexels-w-w-889929.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 50%;
+}
+.proceed-box{
+    display: flex;   
+}
+ 
+.proceed-box div {
+    width: 10px;
+    border: white solid 1px ;
+    background-color:white;
+}
+.proceed-box h6{
+    width: 10px;
+    border: brown solid 1px ;
+    background-color: brown;
+}
+.proceed-box h5{
+    width: 10px;
+    border: blue solid 1px ;
+    background-color: blue;
+}
+.proceed-box h4{
+    width: 10px;
+    border: goldenrod solid 1px ;
+    background-color: goldenrod;
+}
+.proceed-box p{
+    width: 10px;
+    border: green solid 1px ;
+    background-color: green;
+}
+.proceed-content{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.proceed-content  a {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px;
+    background-color: cornsilk;
+    border: blanchedalmond 1px solid;
+    border-radius: 30px;
+    align-items: center;
+    width: 200%;
+    transition: ease-in-out 2s  ;
+
+}
+.proceed-content p a {
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    background-color: green;
+    border: green 1px solid;
+    border-radius: 30px;
+    width: 50%;
+    margin: 10px;
+}
+
+    
+
+
+
+
+
+/* BODY */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    display: flex;
+    height: 550px;
+}
+.home-img{
+    background: url("pexels-w-w-889929.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 150%;
+}
+.home-box{
+    display: flex;   
+}
+ 
+.home-box div {
+    width: 10px;
+    border: white solid 1px ;
+    background-color:white;
+}
+.home-box h6{
+    width: 10px;
+    border: brown solid 1px ;
+    background-color: brown;
+}
+.home-box h5{
+    width: 10px;
+    border: blue solid 1px ;
+    background-color: blue;
+}
+.home-box h4{
+    width: 10px;
+    border: goldenrod solid 1px ;
+    background-color: goldenrod;
+}
+.home-box p{
+    width: 10px;
+    border: green solid 1px ;
+    background-color: green;
+}
+.home-content{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+input {
+    margin: 10px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 100px;
+    width: 500px;
+    text-align: center;
+    font-style: italic;   
+}
+ .home-content a{
+    text-decoration: none; 
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: green;
+    border: green 1px solid;
+    margin: 10px;
+    border-radius: 40px;
+    align-items: center;
+
+}
+
+
+
+
